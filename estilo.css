@@ -1,0 +1,37 @@
+@charset "UTF8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@font-face{
+	font-family:'AARDC';
+	src:url("../home/aluno/Downloads/AARDC___.TTF");
+}
+
+
+#titulo{
+	color:white;
+	font-family: 'Acme',Sans-Serif;
+	text-shadow: 3px 3px 3px black;
+	text-decoration-color: blue;
+	font-style: bold;
+	padding: 15px;
+	box-shadow: black 1px 1px 1px;
+	background-color: rgb(178,34,34);
+	margin-right: -15px;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+#botao{
+	padding: 10px;
+	margin: 100px 10px 50px 600px;
+	width: 300px;
+	height: 100px;
+}
+
+#demo{
+	text-align: center;
+	font-family: 'Indie Flower',Sans-Serif;
+	font-style: bold;
+	font-size: 30px;
+}

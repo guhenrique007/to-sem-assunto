@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<link rel="stylesheet"  href="estilo.css"> 
+<link rel="icon" href="drink.png">
+<head>
+	<title>TÔ SEM ASSUNTO</title>
+	<div id="titulo">
+		<h1>TÔ SEM ASSUNTO</h1>
+	</div>
+</head>
+
+
+
+
+<body>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<div id="botao">
+		<p>
+			<button onclick="geraAssunto()">gere seu assunto aleatório</button>
+		</p>
+	</div>
+
+	<p id="demo"></p>
+
+	<script>
+	var numero;
+	function geraAssunto() {
+	    numero = parseInt(Math.random()*10);
+	    if(numero==0){document.getElementById("demo").innerHTML = "Gosta de comer ou prefere fazer regime?";}
+	    else if(numero==1){document.getElementById("demo").innerHTML = "Gostaria de ter outro nome?";}
+	    else if(numero==2){document.getElementById("demo").innerHTML = "Já chorou em vão?";}
+	    else if(numero==3){document.getElementById("demo").innerHTML = "Já teve vontade de sair de casa quando briga com" +" seus pais?";}
+	    else if(numero==4){document.getElementById("demo").innerHTML = "Lê recados com a mão no mouse?";}
+	    else if(numero==5){document.getElementById("demo").innerHTML = "Melhor programa de televisão?";}
+	    else if(numero==6){document.getElementById("demo").innerHTML = "Na mistura de Kero-Kero com Pica-Pau… dá o quê?";}
+	    else if(numero==7){document.getElementById("demo").innerHTML = "O que faz com quem mente com você?";}
+	    else if(numero==8){document.getElementById("demo").innerHTML = "O tempo apaga tudo, menos?";}
+	    else if(numero==9){document.getElementById("demo").innerHTML = "Por que não há comida de gato com sabor de rato?";}
+
+	}
+
+
+
+
+</script>
+
+</body>
+
+</html>
